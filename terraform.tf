@@ -4,9 +4,9 @@
 terraform {
 /* Uncomment this block to use Terraform Cloud for this tutorial
 cloud {
-    organization = "organization-name"
+    organization = "josy"
     workspaces {
-      name = "learn-terraform-sensitive-variables"
+      name = "josy-an-ag"
     }
 }
 */
