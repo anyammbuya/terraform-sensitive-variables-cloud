@@ -39,7 +39,7 @@ module "lb_security_group" {
   version = "3.17.0"
 
   name        = "lb-sg-project-alpha-dev"
-  description = "Security group for load balancer with HTTP ports open within VPC"
+  description = "Security group for load balancer with HTTP ports open within a VPC"
   vpc_id      = module.vpc.vpc_id
 
   ingress_cidr_blocks = ["0.0.0.0/0"]
